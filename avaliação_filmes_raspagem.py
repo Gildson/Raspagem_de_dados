@@ -53,4 +53,5 @@ def buscar_avaliacao_filmes(url):
 df1 = buscar_avaliacao_filmes('https://www.adorocinema.com/filmes/melhores/decada-2020/ano-2021/')
 df1
 
+#Salvar o dataset
 df1.to_csv('avaliação_filmes_2021.csv')
